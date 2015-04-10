@@ -10,7 +10,7 @@ import languages.*;
 public class Tester {
 
     public static void main(String[] args) {
-        TimeGenerator tg = new TimeGenerator(LocalTime.now(), new HochdeutschGenerator());
+        TimeGenerator tg = new TimeGenerator(LocalTime.now(), new BerndeutschGenerator());
         System.out.println(tg);
     }
 

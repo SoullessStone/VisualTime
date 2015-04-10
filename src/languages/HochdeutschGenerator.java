@@ -13,21 +13,21 @@ public class HochdeutschGenerator extends AbstractLanguageGenerator {
         map.put("2", "zwei");
         map.put("3", "drei");
         map.put("4", "vier");
-        map.put("5", "fÃ¼nf");
+        map.put("5", "fünf");
         map.put("6", "sechs");
         map.put("7", "sieben");
         map.put("8", "acht");
         map.put("9", "neun");
         map.put("10", "zehn");
         map.put("11", "elf");
-        map.put("12", "zwÃ¶lf");
+        map.put("12", "zwölf");
         return map;
     }
 
     @Override
     public HashMap<String, String> getMinutes() {
         HashMap<String, String> map = new HashMap<>();
-        map.put("5", "fÃ¼nf");
+        map.put("5", "fünf");
         map.put("10", "zehn");
         map.put("15", "viertel");
         map.put("20", "zwanzig");

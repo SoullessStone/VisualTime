@@ -10,27 +10,27 @@ public class BerndeutschGenerator extends AbstractLanguageGenerator {
     public HashMap<String, String> getHours() {
         HashMap<String, String> map = new HashMap<>();
         map.put("1", "eis");
-        map.put("2", "zwÃ¶i");
-        map.put("3", "drÃ¼");
+        map.put("2", "zwöi");
+        map.put("3", "drü");
         map.put("4", "vieri");
-        map.put("5", "fÃ¼fi");
-        map.put("6", "sÃ¤chsi");
+        map.put("5", "füfi");
+        map.put("6", "sächsi");
         map.put("7", "sibni");
         map.put("8", "achti");
-        map.put("9", "nÃ¼ni");
-        map.put("10", "zÃ¤ni");
+        map.put("9", "nüni");
+        map.put("10", "zäni");
         map.put("11", "eufi");
-        map.put("12", "zwÃ¶ufi");
+        map.put("12", "zwöufi");
         return map;
     }
 
     @Override
     public HashMap<String, String> getMinutes() {
         HashMap<String, String> map = new HashMap<>();
-        map.put("5", "fÃ¼f");
-        map.put("10", "zÃ¤");
+        map.put("5", "füf");
+        map.put("10", "zä");
         map.put("15", "viertu");
-        map.put("20", "zwÃ¤nzg");
+        map.put("20", "zwänzg");
         return map;
     }
 
@@ -51,6 +51,6 @@ public class BerndeutschGenerator extends AbstractLanguageGenerator {
 
     @Override
     public String getFront() {
-        return "Ã„s isch";
+        return "Äs isch";
     }
 }
